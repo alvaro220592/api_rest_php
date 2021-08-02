@@ -22,3 +22,5 @@ Criei a tabela users
 foi criada uma model com o nome User
 
 Os controller foram colocados na pasta services
+
+parou no min 27
