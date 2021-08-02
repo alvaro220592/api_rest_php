@@ -1,0 +1,22 @@
+{
+    "name": "alvaro220592/api_rest_php",
+    "description": "Desenvolvimento de uma Api Rest em PHP 7.4",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alvaro220592",
+            "email": "alvaro220592@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    },
+    "autoload":{
+        "psr-4":{
+            "app\\":"app/"
+        },
+        "files": [
+            "config.php"
+        ]
+    }
+}

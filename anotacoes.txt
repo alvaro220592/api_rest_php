@@ -1,0 +1,24 @@
+Mudar versão do php no laradock:
+
+Muda no .env pra versão desejada
+
+docker-compose build php-fpm
+docker-compose build workspace
+
+# não pode ser restart
+docker-compose down
+
+# tem q subir de novo como se fosse do zero
+docker-compose up -d image image image ...
+
+No projeto:
+o arquivo config.php trará os dados do banco
+depois do composer iniciado, foi dado o dumpautoload e o update
+foi criado o .htaccess
+Coloquei pra rodar o apache2 pra mexer com as requisições
+
+criei um banco de dados com o mesmo nome do projeto e com o usuário 'estudo'.
+Criei a tabela users
+foi criada uma model com o nome User
+
+Os controller foram colocados na pasta services
